@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GestRehema.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="GestRehema.exe" version="1.0.0.7" publicKeyToken="d3c1a6f5f2cffa17" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15328">
       <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1hXa3aWdSYDDpmxAbUWgxnGaGCC/tBbsn5vO6QYvS5o=</dsig:DigestValue>
+        <dsig:DigestValue>Wmw9f8D592S/0PaEsSdjP6OOrgOanPVC8g5jqq6Gm4I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -188,13 +188,13 @@
       <dsig:DigestValue>SmOGE/0bWsQLmM3sLSGeyK2jEMbH9m8+VKe0wIozd6Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="GestRehema.dll" size="535552">
+  <file name="GestRehema.dll" size="540128">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>V6kQcAifsPwZh6/HZ2ROjlgAv8ymlCHYwadK70P7ypg=</dsig:DigestValue>
+      <dsig:DigestValue>QDpPlWoNQgeUuRwnbIaHBz+UI9RnmhjVIkbbO/BkKuk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="GestRehema.dll.config" size="281">
@@ -206,13 +206,13 @@
       <dsig:DigestValue>lBsOfJn8Y7ocYwnac+i8/MxRclx8ykVtT3ZsJOfFWoo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="GestRehema.exe" size="142336">
+  <file name="GestRehema.exe" size="143328">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/1qprRR9a3tSHQHQQj56NYMsdx1uTZZ6faIkqyKicGw=</dsig:DigestValue>
+      <dsig:DigestValue>uaXcE6jTP100+SfAd02V+Jjk9SxPORGhCWZAQozEGhc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="GestRehema.runtimeconfig.json" size="154">
@@ -673,4 +673,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-</asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-L00U21H\jmuto" issuerKeyHash="e68bf31d2cfe21857ce96cc9bb90d0b411c39122" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>czBLO+bxEODbBOknHRM2FIXcd9n/vuUYANhksZXcDmk=</DigestValue></Reference></SignedInfo><SignatureValue>qv8VoLWCVKudy9m9eOFWZ6SQfe/fbJBYn2VtaRAA1RHtEGaJjqCmY+gA+mhg8ZTz1iIDC99OUV2L4DHjQ+50/A9RcUs4PVKQFF4Xu6+JwYD5KdYJQSvJgyBz9T4wMLDeN6bdPsspl8ibcsgahZwoOuQRbIZdb1cuZbCXXRE+opg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>seXCNgPnHj3zPdu8ol/LOQeoJxAnK4+EJkqXaHgpDwqb2xit2b6hxnX14V4s1BA1YkK88i1Wc9UqigAJdI5oDHrqwP9Z4R0/7zRIPYQyP7YdMPtYeiHYLQwmxGJFg/JDqt7uap77KHPp+6NMrutAQEhpdu/IQc9X0F7R2ae5ALE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="690edc95b164d80018e5beffd977dc851436131d27e904dbe010f1e63b4b3073" Description="" Url=""><as:assemblyIdentity name="GestRehema.exe" version="1.0.0.7" publicKeyToken="d3c1a6f5f2cffa17" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-L00U21H\jmuto</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yYOtE/42B0DJULmoGAOavpqPvcnmSIXzmk4KKWGDr7w=</DigestValue></Reference></SignedInfo><SignatureValue>j9ZBHx9/9NOGZxnbUMG2brGLOjm+VbcCGPYq657L4hn0KXAuNuJg3cCkEH1Syw4vdPLT4aegbAePPIm7GiQAz00RGS7O7S2u7/grYAs6N8cM0LSZNC+VmiDlY0guO97QqFzu/VFzd3yX++e46wCuJnR97C1mHQFbEonxGZl+LWc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>seXCNgPnHj3zPdu8ol/LOQeoJxAnK4+EJkqXaHgpDwqb2xit2b6hxnX14V4s1BA1YkK88i1Wc9UqigAJdI5oDHrqwP9Z4R0/7zRIPYQyP7YdMPtYeiHYLQwmxGJFg/JDqt7uap77KHPp+6NMrutAQEhpdu/IQc9X0F7R2ae5ALE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcRYr0QGqU6xAJrRbRoinYjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwAMAAwAFUAMgAxAEgAXABqAG0AdQB0AG8wHhcNMjEwMzAzMTEyNzAyWhcNMjIwMzAzMTcyNzAyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwAMAAwAFUAMgAxAEgAXABqAG0AdQB0AG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALHlwjYD5x498z3bvKJfyzkHqCcQJyuPhCZKl2h4KQ8Km9sYrdm+ocZ19eFeLNQQNWJCvPItVnPVKooACXSOaAx66sD/WeEdP+80SD2EMj+2HTD7WHoh2C0MJsRiRYPyQ6re7mqe+yhz6fujTK7rQEBIaXbvyEHPV9Be0dmnuQCxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAko52qatYd55VjC267EY8/dnnbVlRuznOWdbovS+bRngedBvrCZhxC9+XNUMffs2DE1R3g1HqQ5lHWyI+n6CDDsbGBVpmp1Owp/HFE0slZHsQQD2GEN3L7D16Fv/SsqcYiYmPMzAN7+PLlrNwzGD15JQS0OO4JXdjtelXpiFuAcY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
